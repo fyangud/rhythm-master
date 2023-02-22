@@ -1,0 +1,159 @@
+h1{
+    color: gainsboro;
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+}
+  
+h2{
+    color:gainsboro;
+}
+
+.app {
+    position: relative;
+    width: 90%;
+    height: 70%;
+    background-color: rgb(20, 20, 42);
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+}
+
+.app button {
+    margin: 10px;
+    background-color: lightgrey;
+    border: none;
+    cursor: pointer;
+}
+
+.app button:hover{
+    background-color: azure;
+}
+
+.control {
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.playControl{
+    width: 20%;
+}
+
+.playControl button{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+
+.slideContainer{
+    width: 50%;
+    display: flex;
+}
+
+.slideContainer p{
+    width: 20%;
+    color: white;
+}
+
+.slider{
+    width: 80%;
+}
+
+.barStripe {
+    height: 40px;
+    padding: 20px;
+    margin: 20px;
+    width: 90%;
+    display: flex;
+    background-color: rgb(35, 43, 82);
+    transition: 0.25s;
+}
+
+.barStripe:hover{
+    height: 85px;
+    background-color: rgb(54, 54, 110);
+    transition: 0.25s;
+    transition-delay: 0.25s;
+}
+
+.typeSelect{
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.typeSelect button{
+    height: 40px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(35, 43, 82);
+    transition: 0.25s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.typeSelect button:hover{
+    background-color: rgb(63, 72, 116);
+}
+
+.typeSelect h2{
+    width: 80px;
+    text-align: center;
+}
+
+.edit{
+    width: 25%;
+    max-width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    transition: 0.25s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.edit button {
+    margin: 0 10px;
+    width: 80px;
+    height: 25px;
+}
+  
+.barStripe:hover > .edit{
+    transition-delay: 0.5s;
+    visibility: visible;
+    opacity: 1;
+}
+
+.barStripe:hover > .typeSelect button{
+    visibility: visible;
+    opacity: 1;
+}
+
+.bar{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.beat {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: gray;
+    margin: 10px;
+}
+
+.active {
+    background-color: gainsboro;
+}
+
+.current {
+    box-shadow: 0 0 0 5px rgb(255, 151, 151);
+}
