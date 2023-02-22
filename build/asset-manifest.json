@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/rhythm-master/static/css/main.9d94472e.css",
+    "main.js": "/rhythm-master/static/js/main.40315373.js",
+    "static/js/787.672a7c82.chunk.js": "/rhythm-master/static/js/787.672a7c82.chunk.js",
+    "static/media/HiHat.wav": "/rhythm-master/static/media/HiHat.93f2f3be6205dac5a41b.wav",
+    "static/media/Snare.wav": "/rhythm-master/static/media/Snare.508613994cc8b23e37e1.wav",
+    "static/media/Clap.wav": "/rhythm-master/static/media/Clap.16f040a12dff7aefad72.wav",
+    "static/media/Kick.wav": "/rhythm-master/static/media/Kick.ea7c6968ff60c0f5c80a.wav",
+    "static/media/Rim.wav": "/rhythm-master/static/media/Rim.0ae94a8cb683def954a8.wav",
+    "index.html": "/rhythm-master/index.html",
+    "main.9d94472e.css.map": "/rhythm-master/static/css/main.9d94472e.css.map",
+    "main.40315373.js.map": "/rhythm-master/static/js/main.40315373.js.map",
+    "787.672a7c82.chunk.js.map": "/rhythm-master/static/js/787.672a7c82.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d94472e.css",
+    "static/js/main.40315373.js"
+  ]
+}

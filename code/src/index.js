@@ -3,12 +3,13 @@ import ReactDOM from 'react-dom';
 import './styles/index.css';
 import App from './App.js';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.render(
-  <React.StrictMode>
+  <BrowserRouter basename='/rhythm-master/build/'>
     <h1>Rhythm Creator</h1>
     <App />
-  </React.StrictMode>,
+  </BrowserRouter>,
   document.getElementById('root')
 );
 
