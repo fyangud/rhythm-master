@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.render(
-  <BrowserRouter basename='/rhythm-master/'>
+  <BrowserRouter basename='/rhythm-master/build/'>
     <h1>Rhythm Creator</h1>
     <App />
   </BrowserRouter>,
