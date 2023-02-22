@@ -108,7 +108,7 @@ h2{
 
 .edit{
     width: 25%;
-    max-width: 200px;
+    max-width: 230px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -120,7 +120,7 @@ h2{
 
 .edit button {
     margin: 0 10px;
-    width: 80px;
+    width: 90px;
     height: 25px;
 }
   
